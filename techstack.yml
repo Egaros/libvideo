@@ -1,0 +1,211 @@
+repo_name: Egaros/libvideo
+report_id: 0744fa8c985fe8d18d7ec9db72194ef5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T07:59:04+00:00'
+requested_by: omansak
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.5'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/samples/Valks/Valks/Valks.csproj
+  detection_source: samples/Valks/Valks/Valks.csproj
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-05 15:57:44.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Egaros/libvideo
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Speed.Test/Speed.Test/packages.config
+  detection_source: tests/Speed.Test/Speed.Test/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-07-15 02:49:30.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/src/libvideo.debug/libvideo.debug.csproj
+  detection_source: src/libvideo.debug/libvideo.debug.csproj
+  last_updated_by: Bar Arnon
+  last_updated_on: 2018-05-22 14:43:08.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/src/libvideo.compat/libvideo.compat.csproj
+  detection_source: src/libvideo.debug/libvideo.debug.csproj
+  last_updated_by: Bar Arnon
+  last_updated_on: 2018-05-22 14:43:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Egaros/libvideo
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Speed.Test/Speed.Test/packages.config
+  detection_source: tests/Speed.Test/Speed.Test/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-07-15 02:49:30.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/samples/Valks/Valks.sln
+  detection_source: samples/Valks/Valks.sln
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-06 17:53:00.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.0.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Core/Core/packages.config
+  detection_source: tests/Core/Core/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-22 18:16:09.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Speed.Test/Speed.Test/packages.config
+  detection_source: tests/Speed.Test/Speed.Test/packages.config
+  last_updated_by: Bar Arnon
+  last_updated_on: 2018-05-22 14:43:08.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: xunit.abstractions
+  description: Common abstractions used to exchange information between xUnit.net
+    and version-independent runners
+  package_url: https://www.nuget.org/xunit.abstractions
+  version: 2.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13312/default_51dc9af41ee0a21e27551191d6c835184da1c0d8.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Core/Core/packages.config
+  detection_source: tests/Core/Core/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-22 18:40:20.000000000 Z
+- name: xunit.assert
+  description: Includes the assertion library from xUnit.net
+  package_url: https://www.nuget.org/xunit.assert
+  version: 2.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13418/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Core/Core/packages.config
+  detection_source: tests/Core/Core/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-22 18:40:20.000000000 Z
+- name: xunit.core
+  description: Includes the libraries for writing unit tests with xUnit.net
+  package_url: https://www.nuget.org/xunit.core
+  version: 2.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13365/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Core/Core/packages.config
+  detection_source: tests/Core/Core/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-22 18:40:20.000000000 Z
+- name: xunit.extensibility.core
+  description: Includes xunit.core.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.core
+  version: 2.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13436/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/Egaros/libvideo/blob/master/tests/Core/Core/packages.config
+  detection_source: tests/Core/Core/packages.config
+  last_updated_by: James Ko
+  last_updated_on: 2015-08-22 18:40:20.000000000 Z
